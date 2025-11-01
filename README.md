@@ -3,7 +3,7 @@
 </p>
 
 <h1>AD-Group policy and Managing accounts</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This repository demonstrates the configuration and management of Active Directory, Group Policy, and user accounts in a Windows domain environment.<br />
 
 
 
