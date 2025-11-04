@@ -19,6 +19,15 @@ This repository demonstrates the configuration and management of Active Director
 - Windows Server 2022
 - Windows 10 
 
+<h2>Project Environment </h2>
+
+To simulate a real corporate IT setup, I created two virtual machines:
+
+DC-1 (Domain Controller): Hosts Active Directory Domain Services. This is where the user accounts and domain are managed.
+
+Client-1: A Windows client machine joined to the domain. This VM is used to log in with domain accounts and test user access before and after enabling/disabling accounts.
+
+
 ## Table of Contents
 - [Dealing with Account Lockouts](#dealing-with-account-lockouts)
 - [Enabling and Disabling Accounts](#enabling-and-disabling-accounts)
@@ -103,7 +112,9 @@ Steps:
 <br />
 
 <h2>##Enabling and Disabling Accounts</h2>
-
+<h4>I wanted to better understand how user account management works in real-world environments. 
+ 
+ Enabling and disabling accounts is one of the most common tasks for IT technicians I believe, especially when onboarding or offboarding employees.</h4>
 <p>
 <img width="1456" height="780" alt="image" src="https://github.com/user-attachments/assets/f872c458-716f-48fb-bac0-ed8a619f7c54" />
 <img width="448" height="421" alt="image" src="https://github.com/user-attachments/assets/401ed2f4-0ddb-47d8-84dc-80633ec4e5e9" />
